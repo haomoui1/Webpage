@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #FFE6E6;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: right;
+  width: 30%;
+  height:500px; */
+  background: #E1AFD1;
+  padding:40px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #AD88C6;
+  
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #7469B6;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Tuuaki Life Story</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home Page</a></li>
+      <li><a href="dte.html">Dte</a></li>
+      <li><a href="about.html">About me</a></li>
+      <li><a href="school.html">School life</a></li>
+    </ul>
+  </nav>
+  
+  <article><h2>Home Page</h2>
+<p>In this page there is 4 links to inrotuce myself and to schow my life and how my school life is in Otahuhu College have been.</p>
+  
+    <h1>Hello</h1>
+    <p>Hello and welcome to my home page which will lead you to see or get to know my life values and other adventures.</p>
+    <p>The links are displayed at the rigt side for you to choose from and get to know more about me.</p> 
+	<img src="Images\picture14.png" width="300" height="500">
+	
+	
+  </article>
+</section>
+
+<footer>
+  <p>Copyright 2024</p>
+</footer>
+
+</body>
+</html>
+
